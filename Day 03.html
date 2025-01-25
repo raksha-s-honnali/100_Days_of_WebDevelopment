@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 03</title>
+</head>
+<body>
+    <form action="/action">
+        <h1><u>Student Registeration Form</u></h1>
+        <fieldset>
+            <legend><b>Personal Information:</b></legend>
+            <div>
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" name="fname" placeholder="First Name" />
+            </div>
+            <div>
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" name="lname" placeholder="Last Name" />
+            </div>
+            <div>
+                <label for="DOB">Date of Birth: </label>
+                <input type="date" id="DOB" name="DOB"/>
+            </div>
+            <div>
+                <label for="email">Enter Email:</label>       
+                <input type="email" id="email" name="email" placeholder="Email ID">
+            </div>
+            <div>
+                Gender:
+                <input type="radio" id="gender" name="gender" value="M"/>
+                <label for="gender">Male</label>
+                <input type="radio" id="gender" name="gender" Value="F"/>
+                <label for="gender">Female</label>
+            </div>
+            <div>
+                <label for="address">Enter Address: </label>
+                <textarea id="address" name="address" rows="3" cols="20"></textarea>
+            </div>
+        </fieldset>
+    <br>
+        <div>
+            <b>Choose Department:</b>
+            <select name="dept">
+                <option value="CS">CS</option>
+                <option value="EE">EE</option>
+                <option value="EC">EC</option>
+                <option value="ME">ME</option>
+                <option value=none>NA</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <b>Enter your hobbies:</b><br>
+            <input type="checkbox" id="hobby" name="hobby"  value="sing" />
+            <label for id="hobby">Singing</label><br>
+            <input type="checkbox" id="hobby" name="hobby" value="dance"/>
+            <label for id="hobby">Dancing</label> <br>
+            <input type="checkbox" id="hobby" name="hobby" value="travel" />
+            <label for id="hobby">Travelling </label> <br>
+            <input type="checkbox" id="hobby" name="hobby" value="books"/>
+            <label for id="hobby">Reading books</label> <br>
+            <input type="checkbox" id="hobby" name="hobby" value="walk"/>
+            <label for id="hobby">Walking</label>
+        </div> 
+        <br>
+        <div>
+            <button type="submit">Submit</button> &nbsp;
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <h2>I &hearts; HTML</h2>
+</body>
+</html>
