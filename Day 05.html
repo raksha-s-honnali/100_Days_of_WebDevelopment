@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Day 05.css" />
+    <title>Day 03</title>
+</head>
+<body style="background-color: pink;">
+    <div>
+        <form action="/action" class="form">
+            <h1>Student Registeration Form</h1>
+            <fieldset class="fieldset">
+                <legend><b>Personal Information:</b></legend>
+                <table>
+                    <tr>
+                        <td><label class="label" for="fname">First Name: </label></td>
+                        <td><input type="text" id="fname" name="fname" placeholder="First Name" /></td>
+                    </tr>
+               
+                    <tr>
+                        <td><label class="label" for="lname">Last Name: </label></td>
+                        <td><input type="text" id="lname" name="lname" placeholder="Last Name" /></td>
+                    </tr>
+                    <tr>
+                        <td><label class="label" for="DOB">Date of Birth: </label></td>
+                        <td><input type="date" id="DOB" name="DOB"/></td>
+                    </tr>
+                    <tr>
+                        <td><label class="label" for="email">Email:</label>  </td>
+                        <td> <input type="email" id="email" name="email" placeholder="Email ID"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Gender:</td>
+                        <td><input type="radio" id="genderM" name="gender" value="M"/>
+                            <label for="genderM">Male</label>
+                            <input type="radio" id="genderF" name="gender" Value="F"/>
+                            <label for="genderF">Female</label></td>
+                    </tr>
+                    <tr>
+                        <td> <label class="label"for="address">Address: </label></td>
+                        <td><textarea id="address" name="address" rows="3" cols="20"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+        <br>
+            <div>
+                <b>Choose Department:</b>
+                <select name="dept">
+                    <option value="CS">CS</option>
+                    <option value="EE">EE</option>
+                    <option value="EC">EC</option>
+                    <option value="ME">ME</option>
+                    <option value=none>NA</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <b>Enter your hobbies:</b><br>
+                <input class="hobby" type="checkbox" id="hobby1" name="hobby"  value="sing" />
+                <label for id="hobby">Singing</label><br>
+                <input class="hobby" type="checkbox" id="hobby2" name="hobby" value="dance"/>
+                <label for id="hobby">Dancing</label> <br>
+                <input class="hobby" type="checkbox" id="hobby3" name="hobby" value="travel" />
+                <label for id="hobby">Travelling </label> <br>
+                <input class="hobby" type="checkbox" id="hobby4" name="hobby" value="books"/>
+                <label for id="hobby">Reading books</label> <br>
+                <input class="hobby" type="checkbox" id="hobby5" name="hobby" value="walk"/>
+                <label for id="hobby">Walking</label>
+            </div> 
+            <br>
+            <div>
+                <button type="submit">Submit</button> &nbsp;
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+    
+    
+    <h2>I &hearts; HTML</h2>
+</body>
+</html>
