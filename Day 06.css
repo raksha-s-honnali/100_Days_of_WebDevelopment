@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: url("./Strawberry.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#outer {
+    height:200px;
+    background-color: wheat;
+    border:1px solid black;
+    padding: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(102, 4, 4);
+    height:20%;
+    background-color: rgb(241, 95, 95);
+    border:2px solid white;
+    margin:1px;
+}
+
+.body {
+    color:rgb(207, 17, 17);
+    font-weight: 700;
+}
+ 
+.footer {
+    height:20%;
+    border:2px solid white;
+    margin:1px;
+    padding:1px;
+    background-color: rgb(185, 38, 38);
+}
+
+button {
+    background-color: white;
+    color:rgb(207, 17, 17);
+    border:white;
+    height:20px;
+    width:100px;
+    border-radius:5px;
+}
+
+button:hover {
+    background-color: rgb(249, 249, 78);
+    font-weight: bold;
+    color:brown;
+}
