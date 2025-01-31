@@ -1,0 +1,29 @@
+#div1 {
+    background-color: blue;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+}
+
+#div2 {
+    background-color: red;
+    margin-left:200px;
+    height: 100px;
+    width:100px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#div2:hover {
+    translate:-200px 0px;
+    transition: 3s;
+    background-color: green;
+}
+
+#main {
+    background-color: bisque;
+    height: 200px;
+    width: 100px;
+    margin: 200px auto;
+    box-shadow: 2px 2px 2px black;
+}
