@@ -1,0 +1,20 @@
+.outer {
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(51, 95, 160);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.inner {
+    height: 100px;
+    width:100px;
+    font-size: 50px;
+    background-color: rgb(101, 101, 156);
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
